@@ -1,0 +1,172 @@
+body , html{
+	height: 100%;
+	margin: 0;
+
+}
+
+.image {
+	background-image: url("mano.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.image-text {
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	color: white;
+	transform: translate(-50%, -50%);
+}
+
+.image-text button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 10px 25px;
+	color: black;
+	background-color: #ddd;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+.image .image-text h1 {
+	font-size: 50px;
+}
+
+.image-text button:hover {
+background-color: #555;
+color: white;
+}
+
+
+.section2 {
+	height: 10%;
+	width: auto;
+	background-color: #eeefed;
+	text-align: center;
+	padding: 15px;
+}
+
+.section2 h4 {
+bottom: 40px;
+}
+
+.section1 {
+	background-image: url("land.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	background-attachment: fixed;
+}
+.font-style-2 {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bg-2 {
+	background-color: #474e5d;
+	color: #ffffff;
+	font: 20px Montserrat, sans-serif;
+	text-align: center;
+	line-height: 1.8;
+}
+
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+ .margin {
+ 	margin-bottom: 45px;
+ 	font-family: 'Shrikhand', cursive;
+ 	font-size: 40px;
+ }
+
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #474e5d;
+	text-align: center;
+}
+/* Navigation Bar */
+nav {
+	width: 100%;
+	margin: 0;
+}
+
+nav ul {
+	background-color: #eee;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+ul.topnav li {
+	float: left;
+	list-style: none;
+}
+
+ul.topnav li.topnav-right {
+	float: right;
+}
+
+ul.topnav li a {
+text-decoration: none;
+display: block;
+min-height: 16px;
+text-align: center;
+padding: 14px;
+text-transform: uppercase;
+color: #666;
+}
+
+ul.topnav li a:hover {
+	color: white;
+	background-color: #0080ff;
+} 
+
+ul.topnav li.dropDownIcon {
+	display: none;
+}
+
+
+/* Mobile Nav Bar */
+
+@media screen and (max-width: 680px) {
+	ul.topnav li:not(:nth-child(1)) {
+		display: none;
+	}
+
+ul.topnav li.dropDownIcon {
+    display: block;
+    float: right;
+}
+ul.topnav.responsive li.dropDownIcon {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+ul.topnav.responsive {
+	position: relative;
+}
+
+ul.topnav.responsive li {
+    display: inline;
+    float: none;
+}
+ul.topnav.responsive li a {
+	display: block;
+	text-align: left;
+}
+}
+/* Mobile Nav-Bar ends */

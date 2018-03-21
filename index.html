@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EZ Photography</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker|Righteous|Shrikhand" rel="stylesheet">
+
+</head>
+<body>
+<!-- Navigation Bar starts here -->
+<nav>
+	<ul class="topnav responsive" id="dropDownClick">
+	    <li><a href="#firstPage">Home</a></li>
+		<li><a href="#">About Me</a></li>
+		<li><a href="#">What I Do</a></li>
+		<li class="topnav-right"><a href="#">Contact Me</a></li>
+		<li class="topnav-right"><a href="#">Portfolio</a></li>
+		<li class="dropDownIcon"><a href="javascript:void(0)" onclick="dropdownmenu()">&#9776;</a></li>
+	</ul>
+</nav>
+
+<!-- Navigation bar ends -->
+
+<!-- First Page -->
+
+    <div class="image" id="#firstPage">
+		<div class="image-text">
+		<h1>I am Eitvyda Zelvyte</h1>
+			<p>And I'm Freelance Photographer!</p>
+		<a href="#section1"><button>More</button></a>
+	</div>
+</div>
+<div class="container-fluid bg-2 text-center">
+	<h4 class="margin">What Do I Do ?</h4>
+	<p class="font-style-2">I'm a passionate photographer at my free time! <br>
+	Currently settled in Sydney!
+	<br>And Barista in my ordinary life!</p>
+</div>
+<div class="section1" id="section1">
+
+</div>
+<div class="section2">
+	<h4>" Some recent shoots! "</h4>
+</div>
+
+
+
+
+<div class="section3" id="section3"></div>
+<div class="section4" id="section4"></div>
+
+
+
+
+<script type="text/javascript">
+	function dropdownmenu() {
+		var x = document.getElementById("dropDownClick");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+			/*change topnav to topnav.responsive*/
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>
+</body>
+</html>
